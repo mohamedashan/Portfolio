@@ -1,0 +1,130 @@
+.navbar-nav {
+    scroll-behavior: smooth;
+    justify-content: center;
+    padding: 0rem;
+    width: 100%;
+    background-color: #09090c;
+    padding-color: #eeeef1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #000000;
+    color: #fff;
+}
+
+.container {
+    font-family: "Oleo Script", system-ui;
+    font-size: xx-large;
+    color: #ffffff;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 370px;
+    min-height: 710px;
+    padding: 30px 24px;
+    background: #fffffe;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.card h1{
+    color: #09090c;
+}
+
+.card::before,
+.card::after {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 180px;
+    border: 4px dashed #ee711f;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.card::before {
+    top: -105px;
+    left: -35px;
+    transform: rotate(-25deg);
+}
+
+.card::after {
+    bottom: 112px;
+    left: -130px;
+    transform: rotate(12deg);
+}
+
+.photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 18px;
+    background: #bd3000;
+    filter: grayscale(1) contrast(1.5) brightness(0.7);
+    mix-blend-mode: multiply;
+}
+
+h1 {
+    margin: 25px 0 0;
+    font-size: 42px;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.flame {
+    width: 36px;
+    height: 36px;
+    margin: 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ee711f;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.description {
+    margin: 26px auto 0;
+    max-width: 295px;
+    color: #6c6c6c;
+    font-size: 18px;
+    line-height: 1.08;
+}
+
+.socials {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    color: #ee711f;
+    font-size: 24px;
+}
+
+.socials a {
+    color: #ee711f;
+    text-decoration: none;
+}
+
+.col h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10%;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.col{
+    margin-left: 20%;
+}
