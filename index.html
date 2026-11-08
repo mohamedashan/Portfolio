@@ -5,48 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Ashan</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div>
-        <nav class="navbar sm:navbar-expand bg-1 fg-2">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
-                </button>
-                <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
-                    <div class="drawer-header">
-                        <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
-                    </div>
-                    <div class="drawer-body">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
-                </dialog>
+        <nav class="navbar navbar-expand bg-white shadow-sm sticky-top">
+            <div class="container">
+
+                <!--head logo-->
+                <a class="navbar-brand fw-bold" href="#">
+                    MA.
+                </a>
+
+                <!-- Navigation Links -->
+                <div class="navbar-collapse">
+
+                    <ul class="navbar-nav ms-auto align-items-center gap-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="btn btn-dark rounded-pill px-4" href="contact">
+                                Contact Me
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
 
+    <section id="home" class="py-5">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h6>HELLO, I'M MOHAMED ASHAN</h6>
+                    <h1 class="fw-bold display-5">I build digital experiences.</h1>
+
+                    <p class="text-secondary mt-3">
+                        Software Engineering Student passionate about technology, software development and creating
+                        meaningful digital experiences.
+                    </p>
+
+                    <div class="d-flex gap-3 mt-4 justify-content-lg-start justify-content-center">
+                        <a href="#projects" class="btn btn-dark rounded-pill px-4 py-2">Explore My Pojects</a>
+                        <a href="#contact" class="btn btn-outline-dark rounded-pill px-4 py-2">Contact Me</a>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
