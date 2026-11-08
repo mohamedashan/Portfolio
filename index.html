@@ -12,77 +12,311 @@
 
 <body>
 
-    <div>
-        <nav class="navbar navbar-expand bg-white shadow-sm sticky-top">
-            <div class="container">
 
-                <!--head logo-->
-                <a class="navbar-brand fw-bold" href="#">
-                    MA.
-                </a>
+    <nav class="navbar navbar-expand bg-white shadow-sm sticky-top">
+        <div class="container">
 
-                <!-- Navigation Links -->
-                <div class="navbar-collapse">
+            <!--head logo-->
+            <a class="navbar-brand fw-bold" href="#">
+                MA.
+            </a>
 
-                    <ul class="navbar-nav ms-auto align-items-center gap-3">
+            <!-- Navigation Links -->
+            <div class="navbar-collapse">
 
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#home">Home</a>
-                        </li>
+                <ul class="navbar-nav ms-auto align-items-center gap-3">
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="btn btn-dark rounded-pill px-4" href="contact">
-                                Contact Me
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
 
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="btn btn-dark rounded-pill px-4" href="#contact">
+                            Contact Me
+                        </a>
+                    </li>
+
+                </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
+
+    <!---home-->
     <section id="home" class="py-5">
+
         <div class="container text-center">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h6>HELLO, I'M MOHAMED ASHAN</h6>
-                    <h1 class="fw-bold display-5">I build digital experiences.</h1>
+                <!--left-->
+                <div class="col-lg-6 text-lg-start text-center mb-4 mb-lg-0">
+                    <h6 class="text-secondary fw-bold small tracking-wide">HELLO, I'M MOHAMED ASHAN</h6>
+                    <h1 class="fw-bold display-4 mt-2">I build digital experiences.</h1>
 
-                    <p class="text-secondary mt-3">
+                    <p class="text-secondary fs-5 mt-3">
                         Software Engineering Student passionate about technology, software development and creating
                         meaningful digital experiences.
                     </p>
 
                     <div class="d-flex gap-3 mt-4 justify-content-lg-start justify-content-center">
-                        <a href="#projects" class="btn btn-dark rounded-pill px-4 py-2">Explore My Pojects</a>
-                        <a href="#contact" class="btn btn-outline-dark rounded-pill px-4 py-2">Contact Me</a>
+                        <a href="#projects" class="btn btn-dark rounded-pill px-4 py-3">Explore My Projects</a>
+                        <a href="#contact" class="btn btn-outline-dark rounded-pill px-4 py-3">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="py-5 col-lg-6 text-center">
+                    <img class="profile-image" src="images/image.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--about-->
+    <section id="about" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row align-items-center">
+
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <span class="text-uppercase text-secondary fw-semibold small">Get To Know Me</span>
+                    <h2 class="fw-bold display-6 mt-1">Passionate about solving problems through code.</h2>
+                </div>
+
+                <div class="col-lg-7">
+                    <p class="lead text-secondary">
+                        I am a Software Engineering Student with a deep curiosity for how digital systems work. I
+                        specialize in building web applications that are clean, efficient, and user-friendly.
+                    </p>
+                    <p class="text-secondary">
+                        When I'm not coding, I'm exploring new web technologies, refining my design skills, and working
+                        on personal projects to expand my technical toolkit.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <span class="text-uppercase text-secondary fw-semibold small">What I Know</span>
+                <h2 class="fw-bold display-6 mt-1">My Technical Toolkit</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Skill Card 1 -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 p-4 rounded-4">
+                        <h4 class="fw-bold h5 mb-3">Frontend Development</h4>
+                        <p class="text-secondary small">Creating responsive, clean user interfaces with core web
+                            technologies.</p>
+                        <ul class="list-unstyled text-secondary small mb-0">
+                            <li class="py-1">✓ HTML5</li>
+                            <li class="py-1">✓ CSS3</li>
+                            <li class="py-1">✓ JavaScript</li>
+                            <li class="py-1">✓ Bootstrap 5</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 p-4 rounded-4">
+                        <h4 class="fw-bold h5 mb-3">Programming & Logic</h4>
+                        <p class="text-secondary small">Building structured logic, applications, and object-oriented
+                            systems.</p>
+                        <ul class="list-unstyled text-secondary small mb-0">
+                            <li class="py-1">✓ Java (OOP & Core)</li>
+                            <li class="py-1">✓ Problem Solving</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 p-4 rounded-4">
+                        <h4 class="fw-bold h5 mb-3">Databases & Tools</h4>
+                        <p class="text-secondary small">Managing data systems and tracking development workflows.</p>
+                        <ul class="list-unstyled text-secondary small mb-0">
+                            <li class="py-1">✓ MySQL & Databases</li>
+                            <li class="py-1">✓ Git & GitHub</li>
+                            <li class="py-1">✓ VS Code</li>
+                            <li class="py-1">✓ Responsive Design</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <span class="text-uppercase text-secondary fw-semibold small tracking-wide">My Work</span>
+                <h2 class="fw-bold display-6 mt-1">Featured Projects</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Project 1: Shoe Store -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://imgs.search.brave.com/A63yA_9RwTMaIGL8G0pjtpu-SPQ3Z-b8AevC93sLVz8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1wc2Qvc2hv/ZS1zdG9yZS1jb25j/ZXB0LWJhbm5lci10/ZW1wbGF0ZV8yMy0y/MTQ4NzM4ODAyLmpw/Zz9zZW10PWFpc19o/eWJyaWQmdz03NDAm/cT04MA"
+                                class="card-img-top project-img" alt="Shoe Store Project">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-dark text-light px-3 py-1 rounded-pill small">HTML / CSS</span>
+                            </div>
+                            <h4 class="fw-bold h5">Shoe Store E-Commerce</h4>
+                            <p class="text-secondary small mt-2">
+                                A complete e-commerce application for managing products, user orders, and inventory with
+                                custom business logic.
+                            </p>
+                            <div class="mt-auto pt-3">
+                                <a href="https://github.com/mohamedashan/Shoe-Store" target="_blank"
+                                    class="btn btn-outline-dark btn-sm rounded-pill px-3">
+                                    View on GitHub 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://imgs.search.brave.com/pm6-mNH5YVrhlVWCa7yBgFSWQQNRgwJF4g_UXuvnQAo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS12/ZWN0b3IvY2FsY3Vs/YXRvci13YXRlcmNv/bG9yLWhhbmQtZHJh/d24tdmVjdG9yLTYw/MG53LTIxNjQwOTEw/NjkuanBn"
+                                class="card-img-top project-img" alt="Java Swing Calculator">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-dark text-light px-3 py-1 rounded-pill small">Java</span>
+                                <span
+                                    class="badge bg-secondary-subtle text-secondary px-3 py-1 rounded-pill small">Swing
+                                    GUI</span>
+                            </div>
+                            <h4 class="fw-bold h5">Java Swing Calculator</h4>
+                            <p class="text-secondary small mt-2">
+                                A clean desktop calculator interface built with Java Swing, handling arithmetic
+                                operations and user event handling.
+                            </p>
+                            <div class="mt-auto pt-3">
+                                <a href="https://github.com/mohamedashan/java_swing_calculator" target="_blank"
+                                    class="btn btn-outline-dark btn-sm rounded-pill px-3">
+                                    View on GitHub 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://imgs.search.brave.com/_fCVxDTJBsoc1pWzXDcw88Yqh-x_Kth3HB1z79nE77w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMTEz/NTU5Ny5qcGc"
+                                class="card-img-top project-img" alt="JARVIS Virtual Assistant">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-dark text-light px-3 py-1 rounded-pill small">Automation</span>
+                                <span class="badge bg-secondary-subtle text-secondary px-3 py-1 rounded-pill small">AI /
+                                    Scripting</span>
+                            </div>
+                            <h4 class="fw-bold h5">JARVIS Virtual Assistant</h4>
+                            <p class="text-secondary small mt-2">
+                                An intelligent personal assistant project designed to automate tasks, process commands,
+                                and streamline daily workflows.
+                            </p>
+                            <div class="mt-auto pt-3">
+                                <a href="https://github.com/mohamedashan/JARVIS" target="_blank"
+                                    class="btn btn-outline-dark btn-sm rounded-pill px-3">
+                                    View on GitHub 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- View All Repositories -->
+            <div class="text-center mt-5">
+                <a href="https://github.com/mohamedashan?tab=repositories" target="_blank"
+                    class="btn btn-dark rounded-pill px-4 py-2">
+                    Explore All Repositories on GitHub 
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="py-5">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+
+                    <span class="text-uppercase text-secondary fw-semibold small tracking-wide">Get In Touch</span>
+                    <h2 class="fw-bold display-5 mt-1 mb-3">Let's build something together.</h2>
+                    <p class="text-secondary fs-5 mb-4">
+                        I am currently open to internship opportunities, software engineering roles, and collaborative
+                        projects. Feel free to reach out!
+                    </p>
+
+                    <!-- contact buttons -->
+                    <div class="d-flex flex-wrap gap-3 justify-content-center align-items-center mb-5">
+                        <a href="mailto:mohamedashandev@gmail.com" class="btn btn-dark rounded-pill px-4 py-3">
+                            Send me an email 
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohamedashan/" target="_blank"
+                            class="btn btn-outline-dark rounded-pill px-4 py-3">
+                            Connect on LinkedIn 
+                        </a>
                     </div>
 
-
-                </div>
-                <div class="col-lg-6">
+                    <!-- Social Links -->
+                    <div class="d-flex justify-content-center gap-4 text-secondary fs-5">
+                        <a href="https://github.com/mohamedashan" target="_blank"
+                            class="text-secondary text-decoration-none hover-dark">GitHub</a>
+                        <span>•</span>
+                        <a href="https://www.linkedin.com/in/mohamedashan/" target="_blank"
+                            class="text-secondary text-decoration-none hover-dark">LinkedIn</a>
+                        <span>•</span>
+                        <a href="https://www.instagram.com/mohamed.ashan_/" target="_blank"
+                            class="text-secondary text-decoration-none hover-dark">Instagram</a>
+                    </div>
 
                 </div>
             </div>
         </div>
     </section>
 
-
-
-
+    <!-- FOOTER -->
+    <footer class="py-4 border-top">
+        <div class="container text-center text-secondary small">
+            <p class="mb-0">@ 2026 Mohamed Ashan.</p>
+        </div>
+    </footer>
 
 
 

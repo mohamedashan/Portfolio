@@ -18,3 +18,13 @@
     color: #007aff;
 }
 
+.profile-image {
+    position: relative;
+    z-index: 1;
+    width: 420px;  
+    height: 500px;  
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
